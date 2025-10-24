@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+
+
+/*Toute la barre head*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*centre mes éléméments verticalement sur la hauteur de la navbar*/
+   padding: 16px 40px;
+    background-color: #fff;
+    border-bottom: 2px dotted #df96ac; 
+  box-shadow: 0px 6px 12px rgba(255, 0, 0, 0.6);
+ position: relative;/* A REVOIR*/
+  z-index: 1;/* A REVOIR*/
+  
+}
+
+
+
+/*Le logo*/
+.logo {
+   display: flex;
+   justify-content: center;
+    flex-direction: column; /*pour que le texte soit sous le logo */
+    align-items: center; /* Centre le texte sous le logo */
+}
+
+.logo img {
+    width: 130px;  /* Taille de l'image */
+    height: 130px; /* Taille de l'image */
+}
+
+.logo span {
+    color: #df96ac;
+    font-size: 16px; /* Taille du texte */
+    font-weight: bold;
+    text-align: center; /* Centre le texte */
+    max-width: 130px; /* Force le texte à ne pas dépasser la largeur de l'image */
+
+}
+
+/*Uniquement les liens*/
+.navbar-links {
+    display: flex;
+  
+    gap: 40px;
+}
+
+.navbar-links a {
+  
+    color: #333;
+    font-size: 16px;
+    
+}
+
+.navbar-links a:hover {
+    color:#df96ac;
+}
+
+/*Le bouton*/
+.login-button {
+    padding: 10px 20px;/*marge interieur, haut:bas et gauche:droite*/
+        background-color:#df96ac;
+    color: #fff;/*couleur du text*/
+    font-size: 16px;
+    font-weight: 600;/*700 SOIT BOLD*/
+    border-radius: 5px;/*legerement arrondi*/
+    border: none;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #f11759;
+}
+
+/*reprendre révision ici du css*/
+.presMission{
+    display:flex;
+    justify-content: row;
+    margin-bottom:60px
+    
+
+}
+
+.imgMission {
+    width: 400px;  /* Taille de l'image */
+    height: 400px; /* Taille de l'image */
+}
+
+
+
+
+.divCentrale{
+    width: 100%; /* Taille de l'image */
+    height: 400px; /* Taille de l'image */
+    background-color: #fce4ec;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+   
+}
+
+
+
+.paragraphe
+{
+    width: 80%;/*80% de la divCentrale*/
+    margin: auto; /*20% à gauche et à droite sont répartis*/
+    margin-bottom: 8px;
+
+}
+
+.paragrapheGauche
+{
+    width: 100%;/*80% de la divCentrale*/
+    margin: auto; /*20% à gauche et à droite sont répartis*/
+    margin-bottom: 8px;
+}
+
+
+h2{
+    color: #df96ac;
+    width: 80%;/*80% de la divCentrale*/
+    margin: auto; /*20% à gauche et à droite sont répartis*/
+    margin-bottom: 20px;/*c'est 20px après le titre*/
+    
+}
+
+.titreGauche{
+    color: #df96ac;
+    width: 100%;/*80% de la divCentrale*/
+    margin: auto; /*20% à gauche et à droite sont répartis*/
+    margin-bottom: 20px;/*c'est 20px après le titre*/
+    
+}
+
+.div-button{
+display:flex;
+flex-direction: row;
+justify-content: flex-end;
+margin:auto;
+width:80%;
+
+}
+.div-buttonGauche {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 80%;  /* comme le texte */
+    margin: auto;
+}
+
+   
+   
+
+
+
+.photo{
+    background-image: url(../images/papi.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+
+.photo2{
+    background-image: url(../images/enfants.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.photo3{
+    background-image: url(../images/annecy.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.photo4{
+    background-image: url(../images/precarite.png);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+
