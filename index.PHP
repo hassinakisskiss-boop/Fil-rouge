@@ -29,5 +29,3 @@ foreach ($route as $routeValue => $className) {
 if (!$controller) {
     require_once "src/View/home.php";
 }
-
-
